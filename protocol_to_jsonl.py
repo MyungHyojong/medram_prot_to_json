@@ -10,7 +10,7 @@ import os
 
 
 # Set OpenAI API Key (replace with your actual key or manage via environment variable)
-openai.api_key = "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"  # (실 사용 시 제거)
+openai.api_key = st.secrets["openai"]["api_key"]
 client = OpenAI(api_key=openai.api_key)
 
 def pdf_page_to_jpg(pdf_file, page_number):
