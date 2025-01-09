@@ -3,3 +3,4 @@ pymupdf>=1.21.1  # Correct library name for PyMuPDF
 pandas>=1.5.3
 openpyxl>=3.0.10  # Required for reading Excel files
 jsonschema>=4.17.3  # Optional, for validating JSON structures if needed
+openai>=0.27.0
