@@ -4,6 +4,7 @@
 
 이 애플리케이션은 Streamlit과 OpenAI API를 사용하여 PDF 파일에서 임상시험 프로토콜 데이터를 추출하고, 이를 JSONL 형식으로 변환하는 도구입니다. 사용자는 PDF에서 제목과 페이지 번호를 추출하고, 이를 기반으로 JSONL 데이터를 생성하여 OpenAI 모델 학습에 사용할 수 있습니다.
 
+https://medrama-proto-json.streamlit.app/
 ---
 
 ## 주요 기능
